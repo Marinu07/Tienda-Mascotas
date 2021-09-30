@@ -1,0 +1,298 @@
+@font-face {
+	font-family: 'letrasMasc';
+	src: url('../include/fuente.otf');
+}
+body {
+	background-color: #fefefe;
+	font-family: helvetica;
+	color: #1e1e1e;
+
+}
+
+div#imagen-logo{
+	float: left;
+	padding: 0px;
+	height: 141px;
+	width: 130px;
+	background-image: url('../img/logo.png');
+}
+div#imagen-logo:hover{
+	height: 141px;
+	width: 130px;
+	background-image: url('../img/logoLengua.png');
+}
+
+div#contenedor {
+	margin: auto;
+	background-color: #fefefe;
+	margin-top: 10px;
+}
+
+div#cabecera {
+	position: relative;
+	padding: 30px;
+	height: 140px;
+	background-color: #2ca6a4;
+	color: #1e1e1e;
+	font-weight: bold;
+}
+div#cabecera  a,  a:visited {
+	color: #fefefe;
+	
+} 
+div#cabecera  a:hover {
+	color: #dddddd;
+	
+} 
+div  a,  a:visited {
+	color: #2ca6a4;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+div a:hover {
+	color: black;
+	font-weight: bold;
+} 
+
+.menu {
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	padding: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #dddddd;	
+	/*top : 50%;
+	left: 50%;*/
+}
+.menu a{
+	color: #1e1e1e;
+	font-weight: bold;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: #1e1e1e;
+	font-weight: bold;
+}
+.titulo{
+	position: absolute;
+	text-align: center;
+	font-size: 35px;
+	font-family:  'letrasMasc';
+	/*top : 50%;
+	left: 50%;*/
+	top: 0%;
+	left: 30%;
+}
+div#sidebar-left {
+	padding: 20px ;
+	font-size: 18px;
+	float: left;
+	width: 10%;
+	min-width: 130px;
+	background-color: #dddddd;
+	margin: 10px;
+}
+
+div#sidebar-left a, div#sidebar-left a:visited {
+	color: #1e1e1e;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+div#sidebar-left a:hover {
+	color: #2ca6a4;
+} 
+
+
+div#contenido {
+	padding: 30px;
+	float: left;
+	text-align: left;
+	width: 80%;
+	min-width: 800px;
+	min-height: 550px;
+	background-color: #dddddd;
+}
+
+div#pie {
+	clear: both;
+	padding: 20px;
+	background-color: #2ca6a4;
+	color: white;
+	text-align: center;
+}
+
+div.saludo {
+	width: 100%;
+	text-align: right;
+}
+h1.titulo{
+	text-align: center;
+	color: #1e1e1e;
+}
+img.fotoProd{
+	max-height: 300px;
+}
+div.fotoProdDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div.producto{
+	margin: 10px;
+	width: 30%;
+	float: 	left;
+	min-width: 350px;
+	padding: 6px 6px;
+	background-color: #abdad9;
+	border-radius: 5px;
+}
+div.datosProd a.nombreProd {
+	font-size: 25px;
+	color: #1e1e1e;
+}
+div.datosProd a.nombreProd:hover {
+	color: #2ca6a4;
+}
+div.datosProd a.botoncompra {
+	color: #2ca6a4;
+	font-size: 20px;
+}
+div.datosProd a.botoncompra:hover {
+	color: gray;
+}
+div.datosProd{
+	padding: 10px;
+	text-align: center;
+}
+div.datosProd a{
+	color: #fefefe;
+	font-weight: bold;
+	text-decoration: none;
+}
+.botonMenu {
+	padding: 8px 10px;
+	text-align: center;
+}
+.botonMenu:hover {
+	background-color: #aaaaaa;
+
+}
+
+.especie {
+	background-color: #dddddd;
+	padding: 10px;
+}
+.fotoCabecera {
+	width: 100px;
+}
+fieldset {
+	border: 1px solid #1e1e1e;
+	width: 15em;
+	margin: 0 auto;
+}
+
+legend {
+	color: #fff;
+	background:  #303030;
+	border: 1px solid #1e1e1e;
+	padding: 2px 6px;
+} 
+
+label {
+	width: 4em;
+	text-align: right;
+	margin-right: 0.5em;
+	display: inline-block;
+}
+button {
+	margin-left: 100px;
+} 
+.imgProd {
+	float: left;
+	padding: 10px;
+}
+.descrProd {
+	float: center;
+	padding: 10px;
+}
+.pedidos {
+	display: flex;
+}
+.pedidos a {
+	color: #2ca6a4;
+	font-weight: bold;
+	text-decoration: none ;
+}
+.pedidos a:hover {
+	color: black;
+	text-decoration: none ;
+}
+.producto a:hover{
+	color: #2ca6a4;
+}
+.linkfoto :hover{
+	opacity: .60;
+}
+.fotoProd{
+	height: 300px;
+}
+h2.tituloP {
+	font-size: 40px;
+	color: #2ca6a4;
+}
+img#img_cesta {
+	max-height: 100px;
+}
+table {
+  width: 100%;
+}
+table thead {
+  background: #abdad9;
+}
+table thead th {
+  font-weight: normal;
+}
+.centerCesta {
+	width: 	26px;
+	margin-left: 2px;
+}
+.imagenFichaProducto{
+	width: 600px;
+}
+.centerPedidos{
+	height: 300px;
+}
+.pPedidos{
+	color: #2ca6a4;
+	font-weight: bold;
+	font-size: 20px;
+}
+.pedidos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: stretch;
+}
+.divPedidos{
+	text-align: center;
+}
+.FotoEnPerfil{
+	margin-left: 30px;
+}
+.FotoEnPerfil img{
+	border-radius: 50%;
+}
+.perfil {
+	display: flex;
+	flex-wrap: wrap;
+}
+.infoperf{
+	margin: 30px;
+}
+.busqueda{
+	display: flex;
+	flex-direction: column;
+}
